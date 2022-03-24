@@ -48,36 +48,24 @@ banger
 
 
 
-const pre = document.createElement("pre");
-document.body.appendChild(pre);
-
-               let x=1760,
-          z=0,y=0;setInterval
-        (()=>{z+=.07,y+=.03;const
-      a=[...new Array(x)].map( (a,r
-    )=>r % 80 === 79 ?"\n":" "),r=new
-   Array(x).fill(0), t= Math.cos(z),e=
-  Math.sin(z),n=Math.cos(y), o=Math.sin
- (y);for(let s=0;s<6.28; s+=.07){const c
- =Math.cos(s),h=      Math.sin(s);for(let
-s=0;s<6.28;s+=          .02){const v=Math
-.sin(s),M=Math          .cos(s),i=c+2,l=1
- /(v*i*e+h*t+5          ),p=v*i*t-h*e,d=0
- |40+30*l*(M*i*n      -p*o),m=0|12+15*l*
-  (M*i*o+p*n),f=0|8*((h*e-v*c*t)*n-v*c*
-    e-h*t-M*c*o), y=d+80*m;m<22&&m>=0
-     &&d>=0&&d<79&&l>r[y] &&(r[y]=l,
-      a[y]= ".,-~:;=!*#$@"[f>0?f:0
-       ])}}pre.innerHTML=a.join
-          ("")},50); /* JS by 
-              @housamz */
-
-// Inspired by
-// https://www.a1k0n.net/2011/07/20/donut-math.html
-
-
-
-
-// credits
-const funs = new Funs("light");
-funs.signature();
+`             k;double sin()
+         ,cos();main(){float A=
+       0,B=0,i,j,z[1760];char b[
+     1760];printf("\x1b[2J");for(;;
+  ){memset(b,32,1760);memset(z,0,7040)
+  ;for(j=0;6.28>j;j+=0.07)for(i=0;6.28
+ >i;i+=0.02){float c=sin(i),d=cos(j),e=
+ sin(A),f=sin(j),g=cos(A),h=d+2,D=1/(c*
+ h*e+f*g+5),l=cos      (i),m=cos(B),n=s\
+in(B),t=c*h*g-f*        e;int x=40+30*D*
+(l*h*m-t*n),y=            12+15*D*(l*h*n
++t*m),o=x+80*y,          N=8*((f*e-c*d*g
+ )*m-c*d*e-f*g-l        *d*n);if(22>y&&
+ y>0&&x>0&&80>x&&D>z[o]){z[o]=D;;;b[o]=
+ ".,-~:;=!*#$@"[N>0?N:0];}}/*#****!!-*/
+  printf("\x1b[H");for(k=0;1761>k;k++)
+   putchar(k%80?b[k]:10);A+=0.04;B+=
+     0.02;}}/*****####*******!!=;:~
+       ~::==!!!**********!!!==::-
+         .,~~;;;========;;;:~-.
+             ..,--------,*/`
